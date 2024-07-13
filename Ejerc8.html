@@ -1,0 +1,50 @@
+<!-- Añade al formulario anterior campos de selección <select> y botones de radio <input type="radio">. -->
+<!DOCTYPE html>
+
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>formulario con campos de selección y botones</title>
+        </head>
+        <body>
+            <h1> Formulario 2</h1>
+            <form onsubmit="">
+                <div>
+                    <label for="nom">Ingresar el Nombre: </label>
+                    <br>
+                    <input type="text" id="nom" name="nom"  placeholder="Ingresar el nombre..">
+                </div>
+                <div>
+                    <label for="ape">Ingresar el Apellidp: </label>
+                    <br>
+                    <input type="text" id="ape" name="ape"  placeholder="Ingresar el apellido..">
+                </div>
+                <div>
+                    <label for="correo">Ingresar el E-mail: </label>
+                    <br>
+                    <input type="text" id="correo" name="correo" placeholder="Ingresar el e-mail..">
+                </div>
+                <div>
+                    <label for="tdoc">Seleccione el tipo de documento </label>
+                    <br>
+                    <select id="tdoc" name="tdoc">
+                        <option value="1">DNI</option>
+                        <option value="2">Libreta Cívica</option>
+                        <option value="3">Otro</option>
+                    </select>
+                    <br>
+                    <fieldset>
+                        <legend>Seleccione el Género</legend>
+                        <div>
+                            <input type="radio" name="sexo" id="F" value="F" checked>   
+                            <label for="F">Femenino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sexo" id="M" value="M" >
+                            <label for="M">Masculino</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+        </body>
+</html>
