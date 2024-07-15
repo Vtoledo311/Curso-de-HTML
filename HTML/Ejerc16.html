@@ -1,0 +1,55 @@
+<!-- Usa las etiquetas <div> y <span> para organizar y dar estilo a tu contenido. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizar y dar estilos - etiquetas div y span</title>
+    <style>
+        .box{
+            background-color: rgb(189, 243, 225);
+            padding: 2%;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        .med{
+            background-color: rgb(230, 210, 184);
+            padding: 2%
+        }
+        .box p{
+            color:blue;            
+        }
+        .med p{
+            color:darkred
+        }
+        .box p span{
+            font-style: oblique;
+            color:black
+            
+        }
+        .med p span{
+            color:rgb(252, 24, 24)
+        }
+        .med p .texto{
+            font-weight: bold;
+            font-size: 120%;
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-bottom: 80px;">
+        <h1> TEXTO </h1>
+        <div class="box">
+            <p>Lorem ipsum <span>dolor sit amet consectetur</span> adipisicing elit. Minus, iure maxime dicta possimus corporis ducimus harum sed nobis tempore atque sit, eveniet ea nostrum doloremque aut animi pariatur vel voluptatem.</p>
+        </div>
+        <div class="med">
+            <p>Lorem ipsum <span class="texto" >dolor sit amet consectetur</span> adipisicing elit. Minus, iure maxime dicta possimus corporis ducimus harum sed nobis tempore atque sit, eveniet ea nostrum doloremque aut animi pariatur vel voluptatem.</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum <span>dolor sit amet consectetur</span> adipisicing elit. Minus, iure maxime dicta possimus corporis ducimus harum sed nobis tempore atque sit, eveniet ea nostrum doloremque aut animi pariatur vel voluptatem.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
