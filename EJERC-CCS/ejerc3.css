@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;     /* ubica los elementos uno al lado del otro */
+}
+.container .sidebar-left ,.sidebar-right{
+    background-color: #ece8e8;
+    width: 20%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: oblique;
+    height: 400px;
+}
+.container .main{
+  width: 60%;
+  padding: 16px;
+  background-color: rgb(89, 53, 189);
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ece8e8;
+  height: fit-content; /* el alto se ajusta al contenido de la columna */  
+}

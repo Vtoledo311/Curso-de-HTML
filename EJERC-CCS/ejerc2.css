@@ -1,0 +1,32 @@
+.body{
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav1{
+    height: 60px;    /* alto */
+    width: 100%;      /* ocupe todo el ancho de la pantalla */
+    background-color: #f1f1f1;    /* color de fondo */ 
+    display: flex;    /* posicionar el menu uno al lado del otro */
+    align-items: center;   /* alinear en el centro los items */
+    gap: 8px;   /* permite separar los elementos 8px */
+    padding: 0px 20px;  /* un padding 0 arriba y 20 a los laterales */
+
+}
+.nav1 a{     /* accedo a los enlaces */
+    padding: 8px;
+    color:black;
+    text-decoration: none;   /* quito la decoración y se va el subrayado */
+
+}
+.nav1 a:hover {   /* hover es una seudoclase que aplica estilo cuando el mouse está sobre el item */
+    background-color: #9cfdf8;
+    color: blue;
+    font-weight: bolder;
+}
